@@ -1,0 +1,29 @@
+v 20110116 2
+B 600 0 2700 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3900 600 3300 600 1 0 0
+{
+T 3600 600 5 10 0 0 0 6 1
+pintype=output
+T 3245 595 5 10 1 1 0 6 1
+pinlabel=Vout
+T 3395 645 5 10 1 1 0 0 1
+pinnumber=2
+T 3600 600 5 10 0 0 0 6 1
+pinseq=2
+}
+P 0 600 600 600 1 0 0
+{
+T -200 600 5 10 0 0 0 0 1
+pintype=input
+T 655 595 5 10 1 1 0 0 1
+pinlabel=Vin
+T 505 645 5 10 1 1 0 6 1
+pinnumber=1
+T -200 600 5 10 0 0 0 0 1
+pinseq=1
+}
+T 1600 400 9 10 1 0 0 0 2
+Preamp
+Channel
+T 1600 1700 8 10 0 1 0 0 1
+source=channel.sch
