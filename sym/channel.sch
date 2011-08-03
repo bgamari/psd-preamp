@@ -89,7 +89,7 @@ refdes=Z1
 T 50100 44500 5 10 1 1 0 0 1
 model=1N522Z
 T 49600 45100 5 10 0 0 0 0 1
-footprint=ACY200P
+footprint=ACY300P
 }
 C 52000 45500 1 180 0 resistor-1.sym
 {
