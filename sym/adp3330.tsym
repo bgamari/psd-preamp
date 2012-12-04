@@ -20,11 +20,11 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20060113 1
-name=MAX5387
-device=MAX5387
+name=APD3330
+device=APD3330
 refdes=U?
-footprint=TSSOP-65P-640L1-8N
-description=Dual 256-tap digital potentiometer
+footprint=SOT-23-6
+description=Fixed positive voltage regulator
 author=Ben Gamari <bgamari@gmail.com>
 numslots=0
 
@@ -43,17 +43,9 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		io	line	r		HA
-2		io	line	r		WA
-3		io	line	r		LA
-4		io	line	r		HB
-5		io	line	r		WB
-6		io	line	r		LB
-7		pwr	line	b		GND
-8		pwr	line	b		GND
-9		in	line	l		A2
-10		in	line	l		A1
-11		in	line	l		A0
-12		io	line	l		SDA
-13		io	line	l		SCL
-14		pwr	line	t		VDD
+1		pwr	line	r		OUT
+2		pwr	line	l		IN
+3		out	line	r		\_ERR\_
+4		pwr	line	b		GND
+5		pwr	line	b		NR
+6		pwr	line	l		\_SD\_
