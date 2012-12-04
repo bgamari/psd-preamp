@@ -1,5 +1,5 @@
-schematics udaq.sch
+schematics amp.sch
 
-output-name udaq
+output-name amp
 skip-m4
 
