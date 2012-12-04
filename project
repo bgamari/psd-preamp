@@ -1,0 +1,5 @@
+schematics udaq.sch
+
+output-name udaq
+skip-m4
+
