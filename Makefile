@@ -1,4 +1,4 @@
-name=udaq
+name=amp
 
 %.sym : %.tsym
 	tragesym $< $@
