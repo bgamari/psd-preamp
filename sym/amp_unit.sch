@@ -411,3 +411,5 @@ N 53700 59900 54300 59900 4
 T 53800 59900 5 10 1 1 0 0 1
 netname=gainA
 }
+T 56200 57900 9 10 1 0 0 0 1
+Pre-amplifier channel

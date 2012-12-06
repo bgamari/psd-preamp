@@ -310,3 +310,5 @@ value=>0.47u
 T 55600 33400 5 10 0 0 0 0 1
 footprint=1206
 }
+T 62300 28900 9 10 1 0 0 0 1
+Tracker pre-amplifier
