@@ -1731,7 +1731,7 @@ Element["" "HEADER2_1" "CH2/PROBE" "unknown" 760.00mil 2040.00mil -45.00mil 50.0
 
 	)
 
-Element["" "SOT-23-LTC-S6" "U1" "unknown" 2300.00mil 2400.00mil 81.00mil -46.00mil 0 100 ""]
+Element["" "SOT-23-LTC-S6" "U1" "3.3V" 2300.00mil 2400.00mil 81.00mil -46.00mil 0 100 ""]
 (
 	Pad[37.00mil -64.00mil 37.00mil -40.00mil 24.00mil 30.00mil 30.00mil "" "1" "square"]
 	Pad[0.0000 -64.00mil 0.0000 -40.00mil 24.00mil 30.00mil 30.00mil "" "2" "square"]
@@ -1749,7 +1749,7 @@ Element["" "SOT-23-LTC-S6" "U1" "unknown" 2300.00mil 2400.00mil 81.00mil -46.00m
 
 	)
 
-Element["" "SOT-23-LTC-S6" "U2" "unknown" 1900.00mil 2525.00mil -144.00mil -46.00mil 0 100 ""]
+Element["" "SOT-23-LTC-S6" "U2" "5V" 1900.00mil 2525.00mil -144.00mil -46.00mil 0 100 ""]
 (
 	Pad[37.00mil -64.00mil 37.00mil -40.00mil 24.00mil 30.00mil 30.00mil "" "1" "square"]
 	Pad[0.0000 -64.00mil 0.0000 -40.00mil 24.00mil 30.00mil 30.00mil "" "2" "square"]
