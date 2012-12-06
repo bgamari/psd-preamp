@@ -922,7 +922,7 @@ Element["" "1206" "CH0/R5" "10k" 1025.00mil 300.00mil 90.00mil -85.00mil 3 80 ""
 
 	)
 
-Element["" "1206" "CH0/R6" "500" 900.00mil 300.00mil 85.00mil -85.00mil 3 80 ""]
+Element["" "1206" "CH0/R6" "510" 900.00mil 300.00mil 85.00mil -85.00mil 3 80 ""]
 (
 	Pad[-5.00mil 60.00mil 5.00mil 60.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[-5.00mil -60.00mil 5.00mil -60.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -931,7 +931,7 @@ Element["" "1206" "CH0/R6" "500" 900.00mil 300.00mil 85.00mil -85.00mil 3 80 ""]
 
 	)
 
-Element["" "1206" "CH0/R4" "500" 835.00mil 150.00mil -85.00mil -90.00mil 0 80 ""]
+Element["" "1206" "CH0/R4" "510" 835.00mil 150.00mil -85.00mil -90.00mil 0 80 ""]
 (
 	Pad[-60.00mil -5.00mil -60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[60.00mil -5.00mil 60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1071,7 +1071,7 @@ Element["" "1206" "CH1/R5" "10k" 2250.00mil 300.00mil 90.00mil -85.00mil 3 80 ""
 
 	)
 
-Element["" "1206" "CH1/R6" "500" 2125.00mil 300.00mil 85.00mil -85.00mil 3 80 ""]
+Element["" "1206" "CH1/R6" "510" 2125.00mil 300.00mil 85.00mil -85.00mil 3 80 ""]
 (
 	Pad[-5.00mil 60.00mil 5.00mil 60.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[-5.00mil -60.00mil 5.00mil -60.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1080,7 +1080,7 @@ Element["" "1206" "CH1/R6" "500" 2125.00mil 300.00mil 85.00mil -85.00mil 3 80 ""
 
 	)
 
-Element["" "1206" "CH1/R4" "500" 2060.00mil 150.00mil -85.00mil -90.00mil 0 80 ""]
+Element["" "1206" "CH1/R4" "510" 2060.00mil 150.00mil -85.00mil -90.00mil 0 80 ""]
 (
 	Pad[-60.00mil -5.00mil -60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[60.00mil -5.00mil 60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1226,7 +1226,7 @@ Element["" "1206" "CH2/R5" "10k" 1050.00mil 1450.00mil 90.00mil -85.00mil 3 80 "
 
 	)
 
-Element["" "1206" "CH2/R6" "500" 925.00mil 1450.00mil 35.00mil 85.00mil 1 80 ""]
+Element["" "1206" "CH2/R6" "510" 925.00mil 1450.00mil 35.00mil 85.00mil 1 80 ""]
 (
 	Pad[-5.00mil 60.00mil 5.00mil 60.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[-5.00mil -60.00mil 5.00mil -60.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1235,7 +1235,7 @@ Element["" "1206" "CH2/R6" "500" 925.00mil 1450.00mil 35.00mil 85.00mil 1 80 ""]
 
 	)
 
-Element["" "1206" "CH2/R4" "500" 860.00mil 1300.00mil -85.00mil -90.00mil 0 80 ""]
+Element["" "1206" "CH2/R4" "510" 860.00mil 1300.00mil -85.00mil -90.00mil 0 80 ""]
 (
 	Pad[-60.00mil -5.00mil -60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[60.00mil -5.00mil 60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1384,7 +1384,7 @@ Element["" "1206" "CH3/R5" "10k" 2250.00mil 1450.00mil 90.00mil -85.00mil 3 80 "
 
 	)
 
-Element["" "1206" "CH3/R6" "500" 2125.00mil 1450.00mil 85.00mil -85.00mil 3 80 ""]
+Element["" "1206" "CH3/R6" "510" 2125.00mil 1450.00mil 85.00mil -85.00mil 3 80 ""]
 (
 	Pad[-5.00mil 60.00mil 5.00mil 60.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[-5.00mil -60.00mil 5.00mil -60.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
@@ -1393,7 +1393,7 @@ Element["" "1206" "CH3/R6" "500" 2125.00mil 1450.00mil 85.00mil -85.00mil 3 80 "
 
 	)
 
-Element["" "1206" "CH3/R4" "500" 2060.00mil 1300.00mil -85.00mil -90.00mil 0 80 ""]
+Element["" "1206" "CH3/R4" "510" 2060.00mil 1300.00mil -85.00mil -90.00mil 0 80 ""]
 (
 	Pad[-60.00mil -5.00mil -60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "1" "square"]
 	Pad[60.00mil -5.00mil 60.00mil 5.00mil 60.00mil 30.00mil 76.00mil "" "2" "square"]
