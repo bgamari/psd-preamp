@@ -1550,7 +1550,7 @@ Element["" "1206" "C6" "unknown" 1610.00mil 2450.00mil 40.00mil -90.00mil 0 80 "
 
 	)
 
-Element["" "SOT89" "U3" "unknown" 1671.00mil 2550.00mil -160.00mil 173.00mil 0 100 ""]
+Element["" "SOT89" "U3" "-5V" 1671.00mil 2550.00mil -160.00mil 173.00mil 0 100 ""]
 (
 	Pad[0.0000 -12.00mil 0.0000 12.00mil 37.00mil 30.00mil 43.00mil "1" "1" "square"]
 	Pad[-61.00mil -12.00mil -61.00mil 12.00mil 37.00mil 30.00mil 43.00mil "2" "2" "square"]
