@@ -2918,7 +2918,6 @@ Layer(10 "silk")
 	Line[855.00mil 2610.00mil 845.00mil 2600.00mil 10.00mil 20.00mil "clearline"]
 	Line[995.00mil 2610.00mil 1005.00mil 2600.00mil 10.00mil 20.00mil "clearline"]
 	Text[70.00mil 1050.00mil 0 144 "tracker pre-amplifier" "clearline"]
-	Text[1325.00mil 1050.00mil 0 144 "(c) 2012 Ben Gamari" "clearline"]
 	Text[75.00mil 1125.00mil 0 144 "a 4 channel, variable gain, variable offset amplifier" "clearline"]
 	Text[200.00mil 2625.00mil 3 144 "SCL" "clearline"]
 	Text[300.00mil 2625.00mil 3 144 "SDA" "clearline"]
@@ -2926,6 +2925,11 @@ Layer(10 "silk")
 	Text[720.00mil 2600.00mil 3 144 "+5V" "clearline"]
 	Text[1175.00mil 2700.00mil 0 144 "9V" "clearline"]
 	Text[820.00mil 2600.00mil 3 144 "-5V" "clearline"]
+	Text[200.00mil 1250.00mil 0 320 "2" "clearline"]
+	Text[1400.00mil 50.00mil 0 320 "1" "clearline"]
+	Text[225.00mil 50.00mil 0 320 "0" "clearline"]
+	Text[1400.00mil 1250.00mil 0 320 "3" "clearline"]
+	Text[1575.00mil 1075.00mil 0 100 "(c) 2012 ben gamari" "clearline"]
 	Polygon("pin,via")
 	(
 		[61.3034mm 23.8743mm] [61.2562mm 23.8921mm] [61.2303mm 23.9347mm] [61.2056mm 24.0658mm] [61.1934mm 24.1278mm] 
