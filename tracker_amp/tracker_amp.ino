@@ -1,6 +1,11 @@
 #include <Wire.h>
 
-byte zero_offsets[] = { 120, 96, 119, 120 };
+struct gain_offset {
+  uint8_t gain, offset;
+};
+
+struct gain_offset values[4] = { 0, 0, 0, 0 };
+byte zero_offsets[4] = { 120, 96, 119, 120 };
 
 void write_pot(byte addr, byte instr, byte data)
 {
@@ -10,19 +15,22 @@ void write_pot(byte addr, byte instr, byte data)
   Wire.endTransmission();
 }
 
-void set_pot(byte addr, bool b, byte data)
+enum subaddress {
+  RDAC_GAIN = 0, RDAC_OFFSET = 1
+};
+
+void set_pot(byte addr, enum subaddress subaddress, byte data)
 {
-  write_pot(addr, b<<7, data);
+  write_pot(addr, subaddress<<7, data);
+  if (subaddress == RDAC_GAIN)
+    values[addr].gain = data;
+  else
+    values[addr].offset = data;
 }
 
-byte read_pot(byte addr)
-{
-  Wire.requestFrom(addr | 1F, 1);
-  while (! Wire.available());
-  return Wire.read()
-}
-
-byte get_pot(byte addr, 
+enum channel {
+  CH1=0, CH2, CH3, CH4
+};
 
 void setup()
 {
@@ -30,8 +38,8 @@ void setup()
   Serial.begin(115200);
   Serial.setTimeout(5000);
   for (int i=0; i<4; i++) {
-    set_pot(0x2c+i, false, 127);
-    set_pot(0x2c+i, true, 0);
+    set_pot(0x2c+i, RDAC_GAIN, 127);
+    set_pot(0x2c+i, RDAC_OFFSET, 0);
   }
 }
 
@@ -44,7 +52,7 @@ void setup()
  *   =2o40
  *   =2g50
  */
- 
+
 void loop()
 {
   char mode = Serial.read();
@@ -66,12 +74,16 @@ void loop()
     return;
   }
   
+  enum subaddress rdac = which == 'g' ? RDAC_GAIN : RDAC_OFFSET;
   byte val;
   if (mode == '=') {
     val = Serial.parseInt();
-    set_pot(0x2c+channel, which == 'g', val);
+    set_pot(0x2c+channel, rdac, val);
   } else {
-    val = get_pot(0x2c+channel, which == 'g');
+    if (which == 'g')
+      val = values[channel].gain;
+    else
+      val = values[channel].offset;
   }
   
   Serial.print("!ok ");
