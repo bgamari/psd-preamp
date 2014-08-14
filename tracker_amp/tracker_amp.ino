@@ -21,7 +21,7 @@ enum subaddress {
 
 void set_pot(byte addr, enum subaddress subaddress, byte data)
 {
-  write_pot(addr, subaddress<<7, data);
+  write_pot(0x2c + addr, subaddress<<7, data);
   if (subaddress == RDAC_GAIN)
     values[addr].gain = data;
   else
@@ -38,8 +38,8 @@ void setup()
   Serial.begin(115200);
   Serial.setTimeout(5000);
   for (int i=0; i<4; i++) {
-    set_pot(0x2c+i, RDAC_GAIN, 127);
-    set_pot(0x2c+i, RDAC_OFFSET, 0);
+    set_pot(i, RDAC_GAIN, 127);
+    set_pot(i, RDAC_OFFSET, 0);
   }
 }
 
@@ -78,7 +78,7 @@ void loop()
   byte val;
   if (mode == '=') {
     val = Serial.parseInt();
-    set_pot(0x2c+channel, rdac, val);
+    set_pot(channel, rdac, val);
   } else {
     if (which == 'g')
       val = values[channel].gain;
