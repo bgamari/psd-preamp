@@ -1,6 +1,3 @@
-[submodule "tracker_amp/arduino-mk"]
-	path = tracker_amp/arduino-mk
-	url = https://github.com/sudar/Arduino-Makefile.git
 [submodule "tracker_amp/tracker_amp/Arduino-Makefile"]
 	path = tracker_amp/tracker_amp/Arduino-Makefile
 	url = https://github.com/sudar/Arduino-Makefile.git
