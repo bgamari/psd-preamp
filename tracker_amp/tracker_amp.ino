@@ -16,7 +16,7 @@ void write_pot(byte addr, byte instr, byte data)
 }
 
 enum subaddress {
-  RDAC_GAIN = 0, RDAC_OFFSET = 1
+  RDAC_GAIN = 1, RDAC_OFFSET = 0
 };
 
 void set_pot(byte addr, enum subaddress subaddress, byte data)
